@@ -1,7 +1,7 @@
 {
   "name": "word-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "This challenge comes with some initial (buggy!) code. We suggest approaching this problem with a TDD mindset, meaning \"write tests, make the tests pass, repeat!\".",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/lighthouse-labs/pair-programming-word-search#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.1"
-  }
+    "chai": "^4.3.6",
+    "mocha": "^7.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
